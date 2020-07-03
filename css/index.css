@@ -1,4 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	display: grid;
 	grid-template-columns: 2fr 8fr
+}
+
+#list {
+
+}
+
+li {
+	list-style-type: none;
+	height: 40px;
+	line-height: 40px;
+	width: 90%;
+	margin: 20px auto;
+	/* border: 1px solid red; */
+	background-color: #4A274F;
+	border-radius: 5px;
+	color: #f0a07c;
+	text-align: center;
+}
+
+#list-panel {
+	height: 100vh;
+	width: 20vw;
+	background-color: #f0a07c;
+}
+
+#show-panel {
+	height: 100vh;
+	width: 70vw;
+	border: 1px solid green;
+	margin: 0 auto;
 }
